@@ -1,10 +1,10 @@
 package ihmsimple.views;
 
-import ihmsimple.ctrl.Controller;
-
-import static ihmsimple.services.ServiceDevine.NOMBRE_INVALIDE;
+import static ihmsimple.services.ServiceDevine.*;
 
 import java.awt.Color;
+
+import ihmsimple.ctrl.Controller;
 
 /**
  * Classe représentant l'ihm de l'application MVC "IhmSimple".
@@ -39,10 +39,11 @@ public class View extends javax.swing.JFrame {
     public View() {
         this.refCtrl = null;
     }
-
     /**
      * Prépare l'ihm et ses composants puis rends l'ihm visible à l'écran.
      */
+
+
     public void ihmStart() {
         initComponents();
         setLocationRelativeTo( null );
